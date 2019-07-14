@@ -1,0 +1,26 @@
+.rangList__wrapper {
+    min-width: 360px;
+    max-width: 410px;
+    min-height: 300px;
+    max-height: 360px;
+    margin-bottom: 12px;
+    
+}
+.div{
+    overflow-y: scroll; 
+    width: 410px;
+    height: 300px;
+    
+}
+.id{
+    margin:0 30px 0 0;
+    padding:0 50px 0 0;
+}
+
+@media (max-width: 880px) {
+
+	.div{
+        padding:0 0 0 0;
+        width: 410px;
+	}
+}

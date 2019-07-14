@@ -1,0 +1,65 @@
+.App {
+    text-align: center;
+  }
+  
+  .cont{
+    display: flex;
+	justify-content: start;
+	padding-top: 20px;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+  }
+
+ /*  @media only screen and (max-width: 600px) {
+    .cont {
+      width: 10px;
+    }
+  } */
+
+  .Appintro {
+    font-size: large;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .appcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  
+  .itemcontainer {
+    width: 40%;
+  }
+  
+  .cardcontainer {
+    margin-top: 80px;
+  }
+  
+  .item {
+    padding: 10px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+  }
+  
+  .target {
+    width: 40%;
+    padding: 10px;
+    max-height: 20px;
+    border: 1px solid grey;
+  }
+
+  .operator {
+      position: relative;
+      background-color: #808080;
+      text-align: center;
+      color: white;
+    } 
+  
+ .zindex{
+   z-index: 1;
+   font-size: 150%;
+  
+ }
+
+ 
